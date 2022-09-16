@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Curiosity Bot・Home</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/gif" href="images/a_767e583e6ea699af4788f78524d7fdc8.gif">
+</head>
+
+<body{overflow: hidden; }>
+    <div class="bg"></div>
+    <div class="bg bg2"></div>
+    <div class="bg bg3"></div>
+
+    <style>
+        .bg {
+            animation: slide 3s ease-in-out infinite alternate;
+            background-image: linear-gradient(-60deg,
+                    rgb(224, 35, 35) 50%,
+                    rgb(241, 54, 8) 50%);
+            bottom: 0;
+            left: -50%;
+            opacity: 0.5;
+            position: fixed;
+            right: -50%;
+            top: 0;
+            z-index: -1;
+        }
+
+        .bg2 {
+            animation-direction: alternate-reverse;
+            animation-duration: 4s;
+        }
+
+        .bg3 {
+            animation-duration: 5s;
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-25%);
+            }
+
+            100% {
+                transform: translateX(25%);
+            }
+        }
+    </style>
+    <div class="header"></div>
+    <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+    <label for="openSidebarMenu" class="sidebarIconToggle">
+        <div class="spinner diagonal part-1"></div>
+        <div class="spinner horizontal"></div>
+        <div class="spinner diagonal part-2"></div>
+    </label>
+    <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+            <li><a href="https://discord.com/api/oauth2/authorize?client_id=1008604995899363338&permissions=414530677056&scope=bot"
+                    target="_blank">Add Curiosity</a></li>
+            <li><a href="https://discord.gg/SKmaM8q3wE" target="_blank">Support Server</a></li>
+            <li><a href="private.html" target="_blank">Privacy Policy</a></li>
+            <li><a href="terms.html" target="_blank">Terms Of Service</a></li>
+        </ul>
+    </div>
+    <a class="abcde"
+        href="https://discord.com/api/oauth2/authorize?client_id=1020106581410586634&redirect_uri=http%3A%2F%2Flocalhost%3A53134%2Fauth%2Fdiscord&response_type=code&scope=identify"><span>Log
+            In</span></a>
+    <img src="images/fe18bc4a5f0a3fad8bd2ed1a3f994794.png" , class="pfp">
+    <h1 class="txt">Curiosity Bot</h1>
+    <p class="txt2">Curiosity is a high-quality music bot with ultra-crisp audio!<br>Jam with your friends, your
+        community or just listen to music during your alone time!</p>
+    <div class="wrapper">
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1008604995899363338&permissions=414530677056&scope=bot"
+            , class="ab"><span>Add
+                Curiosity</span></a>
+    </div>
+
+    </body>
+
+</html>
